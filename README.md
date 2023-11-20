@@ -20,13 +20,13 @@ composer update
 then these tags will be working for MailChimp
 ```php
 // Get the tags for a member in a given list
-Newsletter::getTags('lord.vetinari@discworld.com');
+Newsletter::getTags('test@hush.digital');
 
 // Add tags for a member in a given list, any new tags will be created
-Newsletter::addTags(['tag-1', 'tag-2'], 'lord.vetinari@discworld.com');
+Newsletter::addTags(['tag-1', 'tag-2'], 'test@hush.digital');
 
 // Remove tags for a member in a given list
-Newsletter::removeTags(['tag-1', 'tag-2'], 'lord.vetinari@discworld.com');
+Newsletter::removeTags(['tag-1', 'tag-2'], 'test@hush.digital');
 ```
 
 # Manage newsletters in Laravel
